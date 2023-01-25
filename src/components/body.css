@@ -1,0 +1,11 @@
+.Body {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #333;
+  text-align: left; 
+  display: flex;
+  justify-content: top;
+  font-size: 1.4em; 
+ 
+}
