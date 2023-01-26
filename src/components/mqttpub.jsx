@@ -32,7 +32,7 @@ export default function MQTTPub() {
   function handleClick(message) {
     console.log('Connecting mqtt client!')
     const client = mqtt.connect(host, options)
-    client.publish("CASA/temperatura1", message)
+    client.publish("CASA/controle1", message)
     if (lampState == 'd') {
       setLampState('l')
     }
